@@ -1,0 +1,12 @@
+{
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "java": "cd $dir && javac *.java && java Interface.InterfaceDemo"
+  },
+  "code-runner.ignoreSelection": true,
+  "editor.codeActionsOnSave": {},
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  }
+}

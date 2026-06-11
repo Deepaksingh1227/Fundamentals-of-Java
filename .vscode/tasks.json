@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile InterfaceDemo",
+      "type": "shell",
+      "command": "javac",
+      "args": [
+        "Interface\\InterfaceDemo.java",
+        "Interface\\CarControls.java",
+        "Interface\\ElectricCar.java"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "Run InterfaceDemo",
+      "type": "shell",
+      "command": "java",
+      "args": ["Interface.InterfaceDemo"],
+      "dependsOn": "Compile InterfaceDemo",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always"
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "UserManagement",
+      "request": "launch",
+      "mainClass": "ProjectDemo.UserManagement",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
+      "name": "mapDemo",
+      "request": "launch",
+      "mainClass": "collections.mapDemo",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
+      "name": "hashSet",
+      "request": "launch",
+      "mainClass": "collections.hashSet",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
+      "name": "arrayList",
+      "request": "launch",
+      "mainClass": "collections.arrayList",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
+      "name": "Parameter",
+      "request": "launch",
+      "mainClass": "Parameter",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
+      "name": "InterfaceDemo",
+      "request": "launch",
+      "mainClass": "Interface.InterfaceDemo",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
+      "name": "Launch InterfaceDemo",
+      "request": "launch",
+      "mainClass": "Interface.InterfaceDemo",
+      "projectName": "fundamentals of java",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
