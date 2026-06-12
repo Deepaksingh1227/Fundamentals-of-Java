@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "tryFinallyDemo",
+      "request": "launch",
+      "mainClass": "ExceptionHandling.tryFinallyDemo",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
       "name": "tryCatch",
       "request": "launch",
       "mainClass": "ExceptionHandling.tryCatch",
