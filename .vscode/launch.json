@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "tryCatch",
+      "request": "launch",
+      "mainClass": "ExceptionHandling.tryCatch",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
       "name": "UserManagement",
       "request": "launch",
       "mainClass": "ProjectDemo.UserManagement",
