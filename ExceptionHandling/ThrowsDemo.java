@@ -8,6 +8,9 @@ public class ThrowsDemo {
             if (bookRequested > availableBooks) {
                 throw new Exception("Not enough books available");
             }
+            if (bookRequested < 0) {
+                throw new Exception("You must request atleast 1 book ");
+            }
 
         }
 
@@ -18,7 +21,7 @@ public class ThrowsDemo {
 
         Library l1 = obj.new Library();
         try {
-            l1.borrowBook(5);
+            l1.borrowBook(-1);
         } catch (Exception e) {
             // e.printStackTrace();
             // System.out.println("Exception Occured");
