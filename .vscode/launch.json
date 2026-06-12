@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ThrowsDemo",
+      "request": "launch",
+      "mainClass": "ExceptionHandling.ThrowsDemo",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
       "name": "throwThrowsDemo",
       "request": "launch",
       "mainClass": "ExceptionHandling.throwThrowsDemo",
