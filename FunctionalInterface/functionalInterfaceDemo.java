@@ -1,5 +1,7 @@
 package FunctionalInterface;
 
+import java.util.function.Function;
+
 @FunctionalInterface
 interface bookAction {
     void perform();
@@ -13,6 +15,8 @@ interface Operation {
 }
 
 public class functionalInterfaceDemo {
+    public static Function<Integer, Integer> addFunction = (a) -> a + 3;
+
     public static void main(String args[]) {
         bookAction A1 = () -> {
             System.out.println("Action Performed");
@@ -29,6 +33,9 @@ public class functionalInterfaceDemo {
         };
 
         System.out.println(op.add(10, 20));
+
+        // predefine function interface
+        System.out.println(addFunction.apply(10));
 
     }
 
