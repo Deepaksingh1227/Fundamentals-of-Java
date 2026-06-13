@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BifuncctionDemo",
+      "request": "launch",
+      "mainClass": "ExceptionHandling.BifuncctionDemo",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
       "name": "functionalInterfaceDemo",
       "request": "launch",
       "mainClass": "FunctionalInterface.functionalInterfaceDemo",
