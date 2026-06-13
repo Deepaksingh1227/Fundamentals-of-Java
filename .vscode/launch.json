@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "functionalInterfaceDemo",
+      "request": "launch",
+      "mainClass": "FunctionalInterface.functionalInterfaceDemo",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
       "name": "customException",
       "request": "launch",
       "mainClass": "ExceptionHandling.customException",
