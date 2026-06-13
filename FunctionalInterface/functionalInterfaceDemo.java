@@ -16,6 +16,11 @@ interface Operation {
 
 public class functionalInterfaceDemo {
     public static Function<Integer, Integer> addFunction = (a) -> a + 3;
+    public static Function<Integer, Integer> substractFunction = (a) -> a - 5;
+
+    // chaining Function
+
+    public static Function<Integer, Integer> combineFunction = addFunction.andThen(substractFunction);
 
     public static void main(String args[]) {
         bookAction A1 = () -> {
@@ -36,6 +41,13 @@ public class functionalInterfaceDemo {
 
         // predefine function interface
         System.out.println(addFunction.apply(10));
+
+        // substract function
+        System.out.println(substractFunction.apply(5));
+
+        // chaining function
+
+        System.out.println(combineFunction.apply(20));
 
     }
 
