@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StreamsDemo",
+      "request": "launch",
+      "mainClass": "Streams.StreamsDemo",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
       "name": "BifuncctionDemo",
       "request": "launch",
       "mainClass": "ExceptionHandling.BifuncctionDemo",
