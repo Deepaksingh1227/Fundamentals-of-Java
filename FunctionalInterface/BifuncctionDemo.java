@@ -1,4 +1,4 @@
-package ExceptionHandling;
+package FunctionalInterface;
 
 import java.util.function.BiFunction;
 
