@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StreamPipeline",
+      "request": "launch",
+      "mainClass": "Streams.StreamPipeline",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
       "name": "StreamsDemo",
       "request": "launch",
       "mainClass": "Streams.StreamsDemo",
