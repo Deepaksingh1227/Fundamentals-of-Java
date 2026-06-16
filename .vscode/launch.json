@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TerminalOperationDemo",
+      "request": "launch",
+      "mainClass": "Streams.TerminalOperationDemo",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
       "name": "IntermediateDemo",
       "request": "launch",
       "mainClass": "Streams.IntermediateDemo",
