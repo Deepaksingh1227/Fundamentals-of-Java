@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "functionalOperations",
+      "request": "launch",
+      "mainClass": "npe.functionalOperations",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
       "name": "NPEDemo",
       "request": "launch",
       "mainClass": "npe.NPEDemo",
