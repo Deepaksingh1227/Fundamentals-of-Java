@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NPEDemo",
+      "request": "launch",
+      "mainClass": "npe.NPEDemo",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
+      "name": "NPEDemo",
+      "request": "launch",
+      "mainClass": "NPEDemo",
+      "projectName": "fundamentals of java_424d2672"
+    },
+    {
+      "type": "java",
       "name": "TerminalOperationDemo",
       "request": "launch",
       "mainClass": "Streams.TerminalOperationDemo",
