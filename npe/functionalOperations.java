@@ -29,6 +29,8 @@ public class functionalOperations {
         name.filter(n -> n.startsWith("J"))
                 .ifPresent(System.out::println);
 
+        nullOptional.filter(n -> n.startsWith("J"))
+                .ifPresent(System.out::println);
     }
 
 }
